@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+:root {
+  --primary: #241414;
+  --primary-second: #3d2525;
+  --secondary: #e7c298;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: "Roboto", sans-serif;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-navbar {
+  box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
+  font-weight: 500;
+  font-size: 14.75px;
+  background-color: white;
+}
+
+.nav-item {
+  margin-right: 12px;
+}
+
+.custom-button {
+  border: none;
+  outline: none;
+  background-color: var(--primary-second);
+  color: white;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.body-news {
+    margin-top: 120px !important;
+}
+
+.card {
+  --bs-card-border-radius: none !important;
+}
+
+.news-btn {
+  font-size: 13px;
+}
+
+.card-text {
+  font-size: 15px !important;
+}
