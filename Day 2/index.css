@@ -16,6 +16,12 @@
   display: none;
 }
 
+body {
+  background-image: url(../Assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .custom-navbar {
   box-shadow: 0px 2px 20px rgb(1 41 112 / 10%);
   font-weight: 500;
