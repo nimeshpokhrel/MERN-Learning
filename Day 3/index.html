@@ -42,12 +42,14 @@
                 name="first-name"
                 placeholder="First Name"
                 class="flex-grow-1"
+                required
               />
               <input
                 type="text"
                 name="last-name"
                 placeholder="Last Name"
                 class="flex-grow-1"
+                required
               />
             </div>
             <div class="d-flex">
@@ -56,6 +58,7 @@
                 name="address-1"
                 placeholder="Address 1"
                 class="flex-grow-1"
+                required
               />
               <input
                 type="text"
@@ -65,15 +68,15 @@
               />
             </div>
             <div class="d-flex">
-              <input type="date" name="dob" class="flex-grow-1" />
-              <select name="gender" class="flex-grow-1">
+              <input type="date" name="dob" class="flex-grow-1" required/>
+              <select name="gender" class="flex-grow-1" required>
                 <option hidden>Gender</option>
                 <option>Male</option>
                 <option>Female</option>
               </select>
             </div>
             <div class="d-flex">
-              <select name="city" class="flex-grow-1">
+              <select name="city" class="flex-grow-1" required>
                 <option hidden>City</option>
                 <option>Kathmandu</option>
                 <option>Lalitpur</option>
@@ -90,6 +93,7 @@
                 name="email"
                 placeholder="Your Mail"
                 class="flex-grow-1"
+                required
               />
               <input
                 type="tel"
@@ -104,6 +108,7 @@
                 name="password"
                 placeholder="Password"
                 class="flex-grow-1"
+                required
               />
             </div>
             <div class="d-flex">
@@ -112,10 +117,11 @@
                 name="confirm-password"
                 placeholder="Confirm Password"
                 class="flex-grow-1"
+                required
               />
             </div>
             <div class="d-flex align-items-center" style="margin-bottom: 15px">
-              <input type="checkbox" name="terms" class="me-2" />
+              <input type="checkbox" name="terms" class="me-2" required/>
               <label for="terms" style="color: #767676"
                 >I agree to the
                 <a href="#" style="text-decoration: none"
