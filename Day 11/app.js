@@ -33,7 +33,7 @@ class Woman extends Person {
   }
   displayData() {
     return console.log(
-      `The Person is Female with:\nName: ${this.name}\nAge: ${this.age}\nAddress: ${this.address}\nHeight: ${this.height}\nWeight: ${this.weight}\nIs Pregnant: ${this.pregnancyStatus}\n`
+      `The Person is Female with:\nName: $`{this.name}\nAge: ${this.age}\nAddress: ${this.address}\nHeight: ${this.height}\nWeight: ${this.weight}\nIs Pregnant: ${this.pregnancyStatus}\n`
     );
   }
 }
